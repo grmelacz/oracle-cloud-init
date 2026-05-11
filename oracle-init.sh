@@ -32,7 +32,7 @@ sudo ufw allow from 10.0.0.0/24
 sudo ufw allow ssh
 sudo ufw allow http
 sudo ufw allow https
-sudo ufw enable
+sudo ufw --force enable
 
 # config fail2ban
 sudo cp /etc/fail2ban/jail.d/defaults-debian.conf /etc/fail2ban/jail.d/defaults-debian.conf.bak.$(date +%Y%m%d-%H%M%S)
