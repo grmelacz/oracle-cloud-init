@@ -4,7 +4,7 @@ echo "=== Starting VM init on $(hostname) ==="
 
 # base
 sudo apt update
-sudo apt install -y htop vim fail2ban ufw rsync iputils-ping less ca-certificates curl
+sudo apt install -y htop vim fail2ban ufw rsync iputils-ping less ca-certificates curl cron
 
 # install docker
 sudo install -m 0755 -d /etc/apt/keyrings
